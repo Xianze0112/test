@@ -164,3 +164,45 @@ o\base_events.py", line 515, in _check_closed
     raise RuntimeError('Event loop is closed')
     raise RuntimeError('Event loop is closed')
 RuntimeError: Event loop is closed
+
+
+
+
+sucess p1 1.1080267429351807
+10.111.254.11 - - [30/Sep/2024 11:31:13] "POST /predictOne HTTP/1.1" 500 
+Traceback (most recent call last):
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.p
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.p
+    response = self.handle_exception(e)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.p
+    response = self.full_dispatch_request()
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.pst
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.pst
+    rv = self.dispatch_request()
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\flask\app.p
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_ar
+  File "C:\Users\gpu009\yunlian-doctr\My-DocTr-Plus-Yunlian\doctr_web.py"
+    bm = model(im)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mopped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mol_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian-doctr\My-DocTr-Plus-Yunlian\doctr_web.py"
+    bm = self.GeoTr(x)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mopped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mol_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian-doctr\My-DocTr-Plus-Yunlian\GeoTr.py", li
+    fmap1 = self.__getattr__(self.encoder_block[0])(fmap)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mopped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\nn\mol_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\gpu009\yunlian-doctr\My-DocTr-Plus-Yunlian\GeoTr.py", li
+    pos = self.position_embedding(torch.ones(imgf.shape[0], imgf.shape[2]orch.Size([1, 128, 36, 36])
+  File "C:\Users\gpu009\yunlian_doctor_venv\lib\site-packages\torch\cuda\t
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
